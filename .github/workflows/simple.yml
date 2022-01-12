@@ -16,6 +16,6 @@ jobs:
         run: echo "Hello Ajayprasanth"
       - name: Version Check
         run: |
-          protractor -v
-          git -Version
+          npm protractor -version
+          git --version
 
