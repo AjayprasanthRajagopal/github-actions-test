@@ -18,5 +18,11 @@ jobs:
         run: |
           npm protractor -version
           git --version
+      - name: Python command
+        run: |
+          import platform
+          print
+          (platform.processor())
+        shell:  python
 
 ##hello
