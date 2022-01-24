@@ -15,7 +15,7 @@ jobs:
       - name: Action Checkout Afterwards
         run: |
           pwd
-          ls
+          ls -a 
       - name: Simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
