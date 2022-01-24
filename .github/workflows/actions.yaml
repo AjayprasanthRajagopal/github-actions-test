@@ -12,6 +12,7 @@ jobs:
           ls
       - name: Action Checkout
         uses: actions/checkout@v1
+      - name: Action Checkout Afterwards
         run: |
           pwd
           ls
