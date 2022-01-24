@@ -7,4 +7,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Simple JS Actions
-        uses: AjayprasanthRajagopal/github-actions-test@Master Hello
+        uses: AjayprasanthRajagopal/github-actions-test@v1
+
+        ##hello
+        
