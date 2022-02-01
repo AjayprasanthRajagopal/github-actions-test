@@ -24,3 +24,10 @@ jobs:
       - name: Log Greeting Time
         run : echo "${{ steps.greet.outputs.time }}"
         ##hello
+
+  run-windows-command:
+    runs-on: windows-2019
+    steps:
+      - name: Simple Windows command
+        run : hostname
+        
